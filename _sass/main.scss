@@ -1,3 +1,14 @@
+@import "./_font_mixins.scss";
+
+$title-height: 2.5em;
+$title-font-size: 1.8em;
+$color-orange-pop: #FF7100;
+$color-red-pop: #E81E00;
+
+body {
+  @include zero-perimeter;
+}
+
 .current {
   color: green;
 }
@@ -5,15 +16,16 @@
 header {
   position: fixed;
   background-color: #2a2f4a;
-  font-size: 1.8em;
+  font-size: $title-font-size;
   color: white;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
-  height: 3em;
-  line-height: 3em;
+  height: $title-height;
+  line-height: $title-height;
   width: 100%;
+  @include heading-font;
   nav {
     display: flex;
     //width: 50%;
@@ -45,4 +57,18 @@ header {
     height: inherit;
     line-height: inherit;
   }
+}
+
+#blocker {
+  font-size: $title-font-size;
+  z-index: 0;
+  @include zero-perimeter;
+  height: $title-height;
+}
+
+#banner {
+  background-color: $color-red-pop;
+  z-index: 0;
+  @include zero-perimeter;
+  height: 7em;
 }

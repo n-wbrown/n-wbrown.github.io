@@ -1,12 +1,23 @@
 <!doctype html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
+
     <meta charset="utf-8">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <title>{{ page.title }}</title>
   </head>
-  <body>
-    <H2> Please pardon the dust </H2> 
-    <p> This site is under work. </p> 
+  <body> 
+    <!-- Navigation bar at the top -->
+    {% include navigation.html %}
+    <!-- Place the content here -->
+    <div>
+      <div id=blocker>
+        <!-- Use up space behind the title  -->
+      </div>
+      <div id=banner>
+      </div>
+      {% include projects.html  %}
+      {{ content }}
+    </div>
   </body>
 </html>
