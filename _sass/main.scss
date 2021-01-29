@@ -1,3 +1,48 @@
-p {
+.current {
   color: green;
+}
+
+header {
+  position: fixed;
+  background-color: #2a2f4a;
+  font-size: 1.8em;
+  color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height: 3em;
+  line-height: 3em;
+  width: 100%;
+  nav {
+    display: flex;
+    //width: 50%;
+    color: white;
+    font-size: inherit;
+    height: inherit;
+  }
+  #title {
+    float: left;
+  }
+  #toc {
+    float: right;
+    //position: relative;
+  }
+  a {
+    color: inherit;
+    font-size: inherit;
+    padding: 0em 1.5em 0em 1.5em;
+    height: inherit;
+    text-decoration: none;
+    line-height: inherit;
+  }
+  p {
+    margin: 0em 0em 0em 0em;
+    text-align: center;
+    color: inherit;
+    font-size: inherit;
+    padding: 0em 1.5em 0em 1.5em;
+    height: inherit;
+    line-height: inherit;
+  }
 }
