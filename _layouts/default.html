@@ -14,10 +14,29 @@
       <div id=blocker>
         <!-- Use up space behind the title  -->
       </div>
+      
+      <!-- Title banner --> 
       <div id=banner>
       </div>
+
+      <!-- Where I've worked -->
+      <div id=resume>
+      {% for activity in site.data.career %}
+        <p>
+          {{activity.title}}
+        </p>
+      {% endfor %}
+      </div>
+
+      <!-- Past projects --> 
+      <div id=projects>
       {% include projects.html  %}
       {{ content }}
+      </div>
+
+      <!-- footer content -->
+      <div id=bottom>
+      </div>
     </div>
   </body>
 </html>
