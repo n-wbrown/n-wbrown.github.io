@@ -11,8 +11,9 @@
     {% include navigation.html %}
     <!-- Place the content here -->
     <div>
+      <!-- Use up space behind the title  -->
       <div id=blocker>
-        <!-- Use up space behind the title  -->
+        
       </div>
       
       <!-- Title banner --> 
@@ -21,11 +22,9 @@
 
       <!-- Where I've worked -->
       <div id=resume>
-      {% for activity in site.data.career %}
-        <p>
-          {{activity.title}}
-        </p>
-      {% endfor %}
+      {% assign resume_title2 = site.data.categories | where: "short", "made" | first %}
+      {% include group_header.html title=resume_title2 %}
+      {% include resume.html %}
       </div>
 
       <!-- Past projects --> 
