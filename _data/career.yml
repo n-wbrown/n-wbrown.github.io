@@ -1,23 +1,27 @@
-- title: Science and Engineering Associate
-  icon: 
-  company: SLAC National Accelerator Laboratory
-  to: Current
-  from: June 2018
-  description: > 
-    SLAC Description
+meta:
+  title: Resume 
 
-- title: Research Assistant
-  icon: 
-  company: Syracuse University in collaboration with LIGO
-  to: May 2017
-  from: January 2017 
-  description: > 
-    Helped with paramter estimation. 
-
-- title: Physics Coach
-  icon: 
-  company: Syracuse University in collaboration with LIGO
-  to: May 2017
-  from: January 2017 
-  description: > 
-    Worked with students
+content:
+  - title: Science and Engineering Associate
+    icon: 
+    company: SLAC National Accelerator Laboratory
+    to: Current
+    from: June 2018
+    description: > 
+      SLAC Description
+  
+  - title: Research Assistant
+    icon: 
+    company: Syracuse University in collaboration with LIGO
+    to: May 2017
+    from: January 2017 
+    description: > 
+      Helped with paramter estimation. 
+  
+  - title: Physics Coach
+    icon: 
+    company: Syracuse University Physics Department
+    to: May 2017
+    from: January 2017 
+    description: > 
+      As a physics coach,

@@ -1,5 +1,14 @@
-- short: "done"
-  title: Where I've been
+- tag: "about"
+  title: About Me
 
-- short: "made"
-  title: Things I've made
+- tag: "skills"
+  title: Skills and Experience
+
+- tag: "resume"
+  title: Resume and Education
+  description: Where I've been
+
+- tag: "projects"
+  title: Projects 
+  title: What I've made
+

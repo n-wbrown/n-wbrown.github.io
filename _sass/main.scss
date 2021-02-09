@@ -4,6 +4,7 @@ $title-height: 2.5em;
 $title-font-size: 1.8em;
 $color-orange-pop: #FF7100;
 $color-red-pop: #E81E00;
+$color-bkg-blue: #2a2f4a;
 
 body {
   @include zero-perimeter;
@@ -15,7 +16,7 @@ body {
 
 #navigation {
   position: fixed;
-  background-color: #2a2f4a;
+  background-color: $color-bkg-blue;
   font-size: $title-font-size;
   color: white;
   top: 0;
@@ -71,4 +72,28 @@ body {
   z-index: 0;
   @include zero-perimeter;
   height: 7em;
+}
+
+header.group_header {
+  background-color: $color-bkg-blue;
+  color: #FFFFFF;
+  padding: 0em;
+  width: 20em;
+  div {
+    background-color: inherit;
+    color: inherit;
+    h3 {
+      padding: 1em 3em 1em 1em;
+      margin: 0em 0em 0em 0em;
+      color: inherit;
+    }
+    h3::after{
+      content: '';
+      background-color: #FFFFFF;
+      display: block;
+      height: 2px;
+      margin: 0.325em 0 0.5em 0;
+      width: 100%;
+    }
+  }
 }

@@ -10,7 +10,7 @@
     <!-- Navigation bar at the top -->
     {% include navigation.html %}
     <!-- Place the content here -->
-    <div>
+    <div id="bounds">
       <!-- Use up space behind the title  -->
       <div id=blocker>
         
@@ -18,19 +18,25 @@
       
       <!-- Title banner --> 
       <div id=banner>
+        {{ site.data.about }} 
       </div>
 
       <!-- Where I've worked -->
+      <div id=about>
+      {% include group_header.html content=site.data.about %}
+      {% include resume.html %}
+      </div>
+      
+      <!-- Where I've worked -->
       <div id=resume>
-      {% assign resume_title2 = site.data.categories | where: "short", "made" | first %}
-      {% include group_header.html title=resume_title2 %}
+      {% include group_header.html content=site.data.career %}
       {% include resume.html %}
       </div>
 
       <!-- Past projects --> 
       <div id=projects>
+      {% include group_header.html content=site.data.projects %}
       {% include projects.html  %}
-      {{ content }}
       </div>
 
       <!-- footer content -->

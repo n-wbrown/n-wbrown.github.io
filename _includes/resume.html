@@ -1,5 +1,6 @@
-{% for activity in site.data.career %}
-  <p>
-    {{activity.title}}
-  </p>
+{% for activity in site.data.career.content %}
+  <h2>{{activity.title}}</h2>
+  <h3>{{activity.company}}</h3>
+  <h4>{{activity.to}} - {{activity.from}}</h4>
+  <p>{{activity.description}}</p>
 {% endfor %}
