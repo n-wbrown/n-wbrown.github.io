@@ -20,25 +20,33 @@
       <div id=banner>
         {{ site.data.about }} 
       </div>
-
-      <!-- Where I've worked -->
-      <div id=about>
-      {% include group_header.html content=site.data.about %}
-      {% include resume.html %}
-      </div>
       
-      <!-- Where I've worked -->
-      <div id=resume>
-      {% include group_header.html content=site.data.career %}
-      {% include resume.html %}
-      </div>
+      <div>
+        <!-- Where I've worked -->
+        <section id=about class=content>
+          <div class="container">
+            {% include group_header.html content=site.data.about %}
+            {% include resume.html %}
+          </div>
+        </section>
+        
+        <!-- Where I've worked -->
+        <section id=resume class=content>
+          <div class="container">
+            {% include group_header.html content=site.data.career %}
+            {% include resume.html %}
+          </div>
+        </section>
 
-      <!-- Past projects --> 
-      <div id=projects>
-      {% include group_header.html content=site.data.projects %}
-      {% include projects.html  %}
-      </div>
+        <!-- Past projects --> 
+        <section id=projects class=content>
+          <div class="container">
+            {% include group_header.html content=site.data.projects %}
+            {% include projects.html %}
+          </div>
+        </section>
 
+      </div>
       <!-- footer content -->
       <div id=bottom>
       </div>

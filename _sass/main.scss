@@ -78,7 +78,7 @@ header.group_header {
   background-color: $color-bkg-blue;
   color: #FFFFFF;
   padding: 0em;
-  width: 20em;
+  width: 25em;
   div {
     background-color: inherit;
     color: inherit;
@@ -86,6 +86,7 @@ header.group_header {
       padding: 1em 3em 1em 1em;
       margin: 0em 0em 0em 0em;
       color: inherit;
+      font-size: 35px;
     }
     h3::after{
       content: '';
@@ -96,4 +97,28 @@ header.group_header {
       width: 100%;
     }
   }
+}
+
+section.content {
+  @include zero-perimeter;
+  background-color: #EEEEEE;
+  box-sizing: border-box;
+  p {
+    @include zero-perimeter;
+    box-sizing: inherit;
+  }
+}
+
+div.container {
+  background-color: #DDD;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 1100px;
+}
+
+div.listText {
+  margin-right: 20px;
+  margin-left: 20px;
 }
