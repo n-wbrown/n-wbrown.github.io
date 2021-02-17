@@ -6,6 +6,12 @@ $color-orange-pop: #FF7100;
 $color-red-pop: #E81E00;
 $color-bkg-blue: #2a2f4a;
 
+// Bootstrap overrides 
+
+$dark: $color-bkg-blue;
+
+// End of Bootstrap overrides
+
 body {
   @include zero-perimeter;
 }

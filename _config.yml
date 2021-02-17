@@ -38,7 +38,7 @@ sass:
   style: compressed
   load_paths:
     - _sass
-#    - assets/vendor/bootstrap-5.0.0-beta2/scss
+    - assets/vendor/bootstrap-5.0.0-beta2/scss
 
 collections:
     
@@ -63,7 +63,7 @@ collections:
 #   - vendor/ruby/
 
 exclude: 
-  # Bootstrap
+  # Bootstrap exclusions
   - assets/vendor/bootstrap-5.0.0-beta2/build
   - assets/vendor/bootstrap-5.0.0-beta2/nuget
   - assets/vendor/bootstrap-5.0.0-beta2/site
