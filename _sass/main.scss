@@ -1,6 +1,6 @@
 @import "./_mixins.scss";
 
-$title-height: 66px;
+$title-height: 56px;
 $title-font-size: 1.8em;
 $color-orange-pop: #FF7100;
 $color-red-pop: #E81E00;
@@ -23,7 +23,7 @@ body {
 }
 
 #title {
-   height: $title-height !important;
+   // height: $title-height !important;
 }
 
 /*
