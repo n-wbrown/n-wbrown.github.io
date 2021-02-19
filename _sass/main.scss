@@ -1,14 +1,16 @@
 @import "./_mixins.scss";
 
-$title-height: 2.5em;
+$title-height: 66px;
 $title-font-size: 1.8em;
 $color-orange-pop: #FF7100;
 $color-red-pop: #E81E00;
 $color-bkg-blue: #2a2f4a;
 
+$header-text: #EEEEEE;
 // Bootstrap overrides 
 
 $dark: $color-bkg-blue;
+$navbar-dark-brand-color: $header-text;
 
 // End of Bootstrap overrides
 
@@ -20,6 +22,11 @@ body {
   color: green
 }
 
+#title {
+   height: $title-height !important;
+}
+
+/*
 #navigation {
   position: fixed;
   background-color: $color-bkg-blue;
@@ -65,6 +72,7 @@ body {
     line-height: inherit;
   }
 }
+*/
 
 #blocker {
   font-size: $title-font-size;
