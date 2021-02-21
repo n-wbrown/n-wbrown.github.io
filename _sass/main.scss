@@ -92,7 +92,7 @@ header.group_header {
   background-color: $color-bkg-blue;
   color: #FFFFFF;
   padding: 0em;
-  width: 25em;
+  width: 27em;
   div {
     background-color: inherit;
     color: inherit;
@@ -101,6 +101,7 @@ header.group_header {
       margin: 0em 0em 0em 0em;
       color: inherit;
       font-size: 35px;
+      height: 3.7em;
     }
     h3::after{
       content: '';
@@ -123,12 +124,15 @@ section.content {
   }
 }
 
+$container-padding-constant: 14px;
 div.container {
   background-color: #DDD;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: $container-padding-constant;
+  padding-bottom: $container-padding-constant;
+  padding-right: $container-padding-constant;
+  padding-left: $container-padding-constant;
   width: 1100px;
 }
 
