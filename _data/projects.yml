@@ -1,0 +1,12 @@
+meta:
+  title: Projects
+
+content:
+  - title: proj1
+    description: proj1 text
+  - title: proj2
+    description: proj2 text
+  - title: proj3
+    description: proj3 text
+  - title: proj4
+    description: proj4 text
