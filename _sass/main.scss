@@ -74,6 +74,20 @@ body {
 }
 */
 
+div.social-buttons a {
+  margin-top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 45px;
+  text-decoration: none;
+  i {
+    font-size: inherit;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+
 ul.list-inline {
   margin-top: 0;
   margin-bottom: 30px;

@@ -4,8 +4,10 @@
     <div class="row">
     {% for entry in site.data.about.links %}
       <div class="col">
-        <div class="d-flex justify-content-center">
-          <p> {{ entry.name }} </p>
+        <div class="d-flex justify-content-center social-buttons">
+          <a href="{{ entry.link }}" class="d-flex justify-content-center">
+            <i class="{{ entry.class }}"></i>
+          </a>
         </div>
       </div>
     {% endfor %}
