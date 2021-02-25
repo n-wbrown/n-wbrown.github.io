@@ -74,6 +74,11 @@ body {
 }
 */
 
+ul.list-inline {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
 #blocker {
   font-size: $title-font-size;
   z-index: 0;
@@ -99,7 +104,6 @@ header.group_header {
       padding: 1em 2em 1em 1em;
       margin: 0em 0em 0em 0em;
       color: inherit;
-      //font-size: 35px;
     }
     h3::after{
       content: '';
