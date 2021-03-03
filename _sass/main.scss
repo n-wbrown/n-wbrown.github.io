@@ -73,12 +73,15 @@ body {
   }
 }
 */
-
+div.col {
+  img.profile-pic {
+  }
+}
 div.social-buttons a {
   margin-top: 5px;
   width: 40px;
   height: 40px;
-  font-size: 45px;
+  font-size: 40px;
   text-decoration: none;
   i {
     font-size: inherit;
