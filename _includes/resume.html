@@ -1,8 +1,23 @@
-<div class="listText">
-{% for activity in site.data.career.content %}
-  <h2>{{activity.title}}</h2>
-  <h3>{{activity.company}}</h3>
-  <h4>{{activity.to}} - {{activity.from}}</h4>
-  <p>{{activity.description}}</p>
-{% endfor %}
+<div class="row">
+  <div class="col-sm">
+    {% for activity in site.data.career.content %}
+      <div class="row jobRow">
+        <div class="col-sm-3">
+          <img class="img-fluid mx-auto my-2" src="{{site.baseurl}}/assets/images/{{activity.image}}">
+        </div>
+        <div class="col">
+          <h2>{{ activity.organization }}</h2>
+          {% for role in activity.roles %}
+            {% if role.subdivision %}
+              <h4>{{ role.subdivision }} </h4>
+            {% endif %}
+            {% for time in role.dates %}
+              <h5>{{ time.from }} - {{ time.to }}</h5>
+            {% endfor %}
+            <p>{{ role.description }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>

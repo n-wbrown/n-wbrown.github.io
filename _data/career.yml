@@ -2,26 +2,45 @@ meta:
   title: Resume 
 
 content:
-  - title: Science and Engineering Associate
-    icon: 
-    company: SLAC National Accelerator Laboratory
-    to: Current
-    from: June 2018
-    description: > 
-      SLAC Description
+  - image: slac-simple-hires.png
+    organization: SLAC National Accelerator Laboratory
+    roles:
+    - subdivision: Linac Coherent Light Source (LCLS) Engineering and Control Systems
+      dates: 
+        - to: Current
+          from: June 2017
+      description: > 
+        Developd Grafana plugins in Go for realtime control system monitoring, wrote python applications for automating our development process, and designed Beckhoff PLC-based systems for vacuum controls.
+
+
+  - image: syracusestandard.png
+    organization: Syracuse University
+    roles:
+      - subdivision: High-Energy Experimental Physics and Gravitational Wave Group 
+        dates: 
+          - to: May 2017
+            from: January 2017 
+        description: > 
+          Wrote Python and Shell scripts to streamline parameter estimation workflow for the Syracuse University Gravitational Wave Group in collaboration with LIGO. 
+          
+      - subdivision: High-Energy Experimental Physics 
+        dates: 
+          - to: May 2016
+            from: March 2015
+        description: > 
+          Designed and built portable, WiFi controlled, environment vibration monitor (VATS) for LHCb detector fabrication clean-room including sensor interfaces for the High Energy Experimental Physcs in collaboration with LHCb. This project included the analysis package for significant frequency detection, intelligent peak grouping, and userfriendly tools for datapresentation. Streamlined testing procedures by automating testing equipment. 
   
-  - title: Research Assistant
-    icon: 
-    company: Syracuse University in collaboration with LIGO
-    to: May 2017
-    from: January 2017 
-    description: > 
-      Helped with paramter estimation. 
-  
-  - title: Physics Coach
-    icon: 
-    company: Syracuse University Physics Department
-    to: May 2017
-    from: January 2017 
-    description: > 
-      As a physics coach,
+      - subdivision: Physics Deptartment
+        dates: 
+          - to: May 2017
+            from: January 2017 
+          - to: May 2016
+            from: January 2016 
+        description: > 
+          Worked with physics students in the classroom and study sessions to help them master coursework and practice problems. Class content covered introductions to mechanics and E&M taught with calculus.
+
+      - subdivision: B.S. in Physics, earned August 2018
+        dates:
+        description: >
+          At Syracuse, I had the opportunity to learn from and work with both the Physics Department in the College and Arts and Sciences as well as the EECS division of the College of Engineering and Computer Science. There I built upon my interest for physics and computer engineering/ 
+
