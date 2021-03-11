@@ -110,7 +110,7 @@ ul.list-inline {
   height: 7em;
 }
 
-header.group_header {
+header.group-header {
   background-color: $color-bkg-blue;
   color: #FFFFFF;
   padding: 0em;
@@ -165,3 +165,5 @@ div.col-sm {
     margin-bottom: 2rem;
   }
 }
+// Un/comment this line for debugging assistance 
+* { border: 1px solid black; }

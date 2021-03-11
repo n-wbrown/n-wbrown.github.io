@@ -2,11 +2,21 @@ meta:
   title: Projects
 
 content:
-  - title: proj1
+  - title: Grafana Alerts for EPICS
+    link: "https://github.com/sasaki77/archiverappliance-datasource"
+    link-text: GitHub
+    image:
     description: proj1 text
-  - title: proj2
+  - title: Pytmc
+    link: "https://github.com/pcdshub/pytmc"
+    link-text: GitHub
+    image:
     description: proj2 text
-  - title: proj3
+  - title: Automonochromator
+    link:
+    image:
     description: proj3 text
-  - title: proj4
+  - title: VATS
+    link:
+    image:
     description: proj4 text
