@@ -91,6 +91,20 @@ div.social-buttons a {
   }
 }
 
+div.standard-edges {
+  padding: 0rem 0rem 0rem 0rem;
+}
+@include media-breakpoint-up(sm) {
+  div.standard-edges {
+    padding: 0rem 1rem 0rem 1rem;
+  }
+}
+@include media-breakpoint-up(md) {
+  div.standard-edges {
+    padding: 0rem 3rem 0rem 3rem;
+  }
+}
+
 ul.list-inline {
   margin-top: 0;
   margin-bottom: 30px;
