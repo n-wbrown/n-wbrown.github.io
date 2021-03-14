@@ -1,14 +1,17 @@
+# I dont use this anymore 
 - tag: "about"
+  short: "About"
   title: About Me
 
-- tag: "skills"
-  title: Skills and Experience
-
 - tag: "resume"
+  short: "Resume"
   title: Resume and Education
   description: Where I've been
 
 - tag: "projects"
+  short: "Projects"
   title: Projects 
-  title: What I've made
-
+  
+- tag: "skills"
+  short: "Skills"
+  title: Skills and Experience

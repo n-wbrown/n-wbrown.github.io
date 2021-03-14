@@ -73,10 +73,19 @@ body {
   }
 }
 */
+
+.navbar-nav {
+  li.dropdown-menu {
+    display: inline-block;
+    width: 12rem;
+  }
+}
+
 div.col {
   img.profile-pic {
   }
 }
+
 div.social-buttons a {
   margin-top: 5px;
   //width: 4px;
@@ -183,5 +192,13 @@ div.col-sm {
     margin-bottom: 2rem;
   }
 }
+
+div.group-anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden;
+}
+
 // Un/comment this line for debugging assistance 
 * { border: 1px solid black; }

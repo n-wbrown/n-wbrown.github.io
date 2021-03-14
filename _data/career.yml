@@ -1,5 +1,6 @@
 meta:
-  title: Resume 
+  title: Resume
+  id: "career-section-id"
 
 content:
   - image: slac-simple-hires.png

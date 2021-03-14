@@ -1,5 +1,6 @@
 meta:
   title: Projects
+  id: "projects-section-id"
 
 content:
   - title: Grafana Alerts for EPICS
