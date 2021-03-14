@@ -1,14 +1,17 @@
 <div class="standard-edges">
   <div class="row mx-auto">
-    <div class="col-sm-3">
-      <img class="img-fluid mx-auto my-2" src="{{site.baseurl}}/assets/images/github icon.png">
+    <!-- Picture -->
+    <div class="col-xs-12 col-lg-3">
+      <img class="img-fluid mx-auto my-2 center-image" src="{{site.baseurl}}/assets/images/github icon.png">
     </div>
-    <div class="col-sm-9 my-auto mx-auto">
+    <!-- Description --> 
+    <div class="col my-auto mx-auto">
       <p> {{ site.data.about.content.description }} </p>
     </div>
   </div>
   <div class= "row mx-auto">
-    <div class="col-sm-3">
+    <!-- Social Icons -->
+    <div class="col-xs-12 col-lg-3">
       <div class="row">
       {% for entry in site.data.about.links %}
         <div class="col">
@@ -21,7 +24,7 @@
       {% endfor %}
       </div>
     </div>
-    <div class="col-sm-9">
+    <div class="col">
       <!-- space filler -->
     </div>
   </div>

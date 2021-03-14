@@ -79,7 +79,7 @@ div.col {
 }
 div.social-buttons a {
   margin-top: 5px;
-  width: 40px;
+  //width: 4px;
   height: 40px;
   font-size: 40px;
   text-decoration: none;
@@ -171,6 +171,10 @@ div.container {
 div.listText {
   margin-right: 20px;
   margin-left: 20px;
+}
+
+img.center-image {
+  display: block;
 }
 
 div.col-sm {
