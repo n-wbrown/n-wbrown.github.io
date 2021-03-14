@@ -88,7 +88,7 @@ div.col {
 
 div.social-buttons a {
   margin-top: 5px;
-  //width: 4px;
+  width: 4px;
   height: 40px;
   font-size: 40px;
   text-decoration: none;
@@ -105,12 +105,12 @@ div.standard-edges {
 }
 @include media-breakpoint-up(sm) {
   div.standard-edges {
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
   }
 }
 @include media-breakpoint-up(md) {
   div.standard-edges {
-    padding: 0rem 3rem 0rem 3rem;
+    padding: 1rem 3rem 1rem 3rem;
   }
 }
 
@@ -191,6 +191,26 @@ div.col-sm {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+}
+
+div.row {
+  div.project-box {
+    margin: 0rem 0rem 0rem 0rem;
+    padding: .05rem .05rem .05rem .05rem;
+  }
+}
+@include media-breakpoint-up(sm) {
+  div.row {
+    div.project-box {
+      margin: .5rem 0.2rem .5rem 0.2rem;
+      padding: .1rem .1rem .1rem .1rem;
+    }
+  }
+}
+
+div.project-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 div.group-anchor {
