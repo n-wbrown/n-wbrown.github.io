@@ -20,10 +20,10 @@ content:
       image:
       icon:
       description: Developed continuous integration and building procedures using Travis CI and GitHub Actions. 
-    - title: Data analysis 
+    - title: Data Analysis 
       image:
       icon:
-      description: Written tools for frequency detection and realtime pulse analasysis using Matplotlib, Numpy, and R.  
+      description: Written tools for frequency detection and real-time pulse analysis using Matplotlib, Numpy, and R.  
   other-skills:
     - title: Git
       rating:

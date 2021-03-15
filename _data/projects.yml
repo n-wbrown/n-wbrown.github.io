@@ -7,17 +7,17 @@ content:
     link: "https://github.com/sasaki77/archiverappliance-datasource"
     link-text: GitHub
     image:
-    description: proj1 text
+    description: This grafana plugin allows scientists, engineers, and users to set alerts for conditions in the control systems and receive notifications. The plugin works by connecting Grafana, a tool for creating dashboards, and EPICS, the backbone of LCLS's experiment and hardware automation.
   - title: Pytmc
     link: "https://github.com/pcdshub/pytmc"
     link-text: GitHub
-    image:
-    description: proj2 text
+    image: 
+    description: This Python utility automates the creation of IOCs, the interface between Beckhoff PLCs and the EPICS SCADA at LCLS. Pytmc uses a markup language that can be added to PLC projects and libraries to identify important data. Using this information it builds the interface documents allowing PLC projects to be rapidly iterated and deployed.  
   - title: Automonochromator
     link:
     image:
-    description: proj3 text
+    description: A proof-of-concept project to automate the  monochoromator, a frequency selecting instrument at LCLS. This provides a realtime assesment of the monchronmator's alightment by performing shot-by-shot analysis on the incident and exiting pulse intensity. The process takes advantage of the natural energy distribution between individual pulses to measure the transmission with respect to energy. Using this measurement, a correction step can be computed to improve the alignment.
   - title: VATS
     link:
     image:
-    description: proj4 text
+    description: The fabrication process for an LHCb detector was vulnerable to several vibrational modes. To monitor the assembly area, I built a device using an Arduino and an accelerometer and an analysis package in R.  
