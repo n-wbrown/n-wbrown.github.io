@@ -1,0 +1,40 @@
+meta:
+  title: Skills
+  id: "skills-section-id"
+
+content:
+  top-skills:
+    - title: Python
+      image:
+      icon:
+      description: Adept at using Python in conjunction with Conda for creating applications and analysis tools. 
+    - title: Go
+      image:
+      icon:
+      description: Created the interface tools and monitoring process to utilize Grafana for EPICS alerts.  
+    - title: PLCs and microcontrollers 
+      image:
+      icon:
+      description: Used Beckhoff and Arduino to build systems for  vacuum system control, autonomous sensing, and a quadcopter. 
+    - title: CI/CD
+      image:
+      icon:
+      description: Developed continuous integration and building procedures using Travis CI and GitHub Actions. 
+    - title: Data analysis 
+      image:
+      icon:
+      description: Written tools for frequency detection and realtime pulse analasysis using Matplotlib, Numpy, and R.  
+  other-skills:
+    - title: Git
+      rating:
+    - title: SVN
+      rating:
+    - title: SSH 
+      rating:
+    - title: Linux 
+      rating:
+    - title: HTML/CSS 
+      rating: 
+    - title: Javscript/Typescript
+      rating:
+

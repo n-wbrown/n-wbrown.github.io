@@ -1,14 +1,11 @@
 <div class="standard-edges justify-content-center project-container">
   <div class="col-sm">
     <div class="row justify-content-center">
-      {% for project in site.data.projects.content %}
+      {% for skill in site.data.skills.content.top-skills %}
         <div class="col-sm-12 col-lg-6 col-xl-4 col-xxl-3">
           <div class="project-box">  
-            <h3>{{ project.title }}</h3>
-            {% if project.link and project.link-text %}
-            <a href="{{ project.link }}">{{ project.link-text }}</a>
-            {% endif %}
-            <p>{{ project.description | markdownify }}</p>
+            <h3>{{ skill.title }}</h3>
+            <p>{{ skill.description | markdownify }}</p>
           </div>
         </div>
       {% endfor %}
