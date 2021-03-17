@@ -26,7 +26,7 @@
       </div>
       
       <div class="container-sm">
-        <!-- Where I've worked -->
+        <!-- About me -->
         <section id=about>
           <div class="container">
             {% include group_header.html content=site.data.about %}
@@ -41,6 +41,14 @@
             {% include resume.html %}
           </div>
         </section>
+        
+        <!-- Skills --> 
+        <section id=skills>
+          <div class="container">
+            {% include group_header.html content=site.data.skills %}
+            {% include skills.html %}
+          </div>
+        </section>
 
         <!-- Past projects --> 
         <section id=projects>
@@ -50,13 +58,6 @@
           </div>
         </section>
         
-        <!-- Past projects --> 
-        <section id=skills>
-          <div class="container">
-            {% include group_header.html content=site.data.skills %}
-            {% include skills.html %}
-          </div>
-        </section>
 
       </div>
       <!-- footer content -->

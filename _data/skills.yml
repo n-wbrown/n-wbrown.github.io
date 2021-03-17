@@ -7,15 +7,16 @@ content:
     - title: Python
       image:
       icon:
-      description: Adept at using Python in conjunction with Conda for creating applications and analysis tools. 
+      description: Experienced with Python and Conda for creating applications and analysis tools. Well versed in the standard library, scientific libraries, and a variety of other packages. An avid fan of Jupyter notebooks. 
     - title: Go
       image:
       icon:
-      description: Created the interface tools and monitoring process to utilize Grafana for EPICS alerts.  
+      description: Adept at using Go for developing services and monitoring tasks. Experienced building backend Grafana plugnins.   
     - title: PLCs and microcontrollers 
       image:
       icon:
-      description: Used Beckhoff and Arduino to build systems for  vacuum system control, autonomous sensing, and a quadcopter. 
+      description: Experienced building Beckhoff and Arduino based systems and developing the necessary interfaces for sensing and actuation. Past projects include high vacuum systems, mobile connected sensor packages, and the occasional quadcopter. 
+  other-skills:
     - title: CI/CD
       image:
       icon:
@@ -23,8 +24,7 @@ content:
     - title: Data Analysis 
       image:
       icon:
-      description: Written tools for frequency detection and real-time pulse analysis using Matplotlib, Numpy, and R.  
-  other-skills:
+      description: Enjoy writing tools for data analysis, modeling, and  presentation. Well versed in the python analysis ecosystem.
     - title: Git
       rating:
     - title: SVN
