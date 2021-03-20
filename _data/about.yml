@@ -1,0 +1,22 @@
+meta: 
+  title: About Me
+  id: "about-section-id"
+
+content: 
+  description: I'm an enthusiastic problem solver who enjoys crafting high quality tools and the satisfaction of seeing my projects take on life as new things 3 while building the skillset and knowledge base to constantly improve. I have a personal passion for data visualization, analysis, electronics, and physics. 
+
+links:
+  - order: 1
+    name: LinkedIn
+    class: "fab fa-linkedin"
+    link: "https://www.linkedin.com/in/nolan-brown"
+  - order: 2
+    name: Github
+    class: "fab fa-github-square"
+    link: "https://github.com/n-wbrown"
+  - order: 3
+    name: Email
+    class: "fas fa-envelope-square"
+    link: "mailto:nolanb8192+webpage@gmail.com"
+
+
