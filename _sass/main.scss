@@ -5,7 +5,7 @@ $title-font-size: 1.8em;
 $color-orange-pop: #FF7100;
 $color-red-pop: #E81E00;
 $color-bkg-blue: #2a2f4a;
-
+$color-bkg-light: #FFFFFF;
 $header-text: #EEEEEE;
 // Bootstrap overrides 
 
@@ -26,53 +26,6 @@ body {
    // height: $title-height !important;
 }
 
-/*
-#navigation {
-  position: fixed;
-  background-color: $color-bkg-blue;
-  font-size: $title-font-size;
-  color: white;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  height: $title-height;
-  line-height: $title-height;
-  width: 100%;
-  @include heading-font;
-  nav {
-    display: flex;
-    //width: 50%;
-    color: white;
-    font-size: inherit;
-    height: inherit;
-  }
-  #title {
-    float: left;
-  }
-  #toc {
-    float: right;
-    //position: relative;
-  }
-  a {
-    color: inherit;
-    font-size: inherit;
-    padding: 0em 1.5em 0em 1.5em;
-    height: inherit;
-    text-decoration: none;
-    line-height: inherit;
-  }
-  p {
-    margin: 0em 0em 0em 0em;
-    text-align: center;
-    color: inherit;
-    font-size: inherit;
-    padding: 0em 1.5em 0em 1.5em;
-    height: inherit;
-    line-height: inherit;
-  }
-}
-*/
 
 .navbar-nav {
   li.dropdown-menu {
@@ -157,7 +110,7 @@ header.group-header {
 
 section.content {
   @include zero-perimeter;
-  background-color: #EEEEEE;
+  background-color: #FEFEFE;
   box-sizing: border-box;
   p {
     @include zero-perimeter;
@@ -167,7 +120,8 @@ section.content {
 
 $container-padding-constant: 14px;
 div.container {
-  background-color: #DDD;
+  background-color: inherit;
+  // background-color: #EEEEEE;
   margin-left: auto;
   margin-right: auto;
   padding-top: $container-padding-constant;
@@ -175,6 +129,10 @@ div.container {
   padding-right: $container-padding-constant;
   padding-left: $container-padding-constant;
   //width: 1100px;
+}
+
+div.background {
+  background-color: $color-bkg-light;
 }
 
 div.listText {

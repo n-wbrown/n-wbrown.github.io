@@ -7,12 +7,12 @@ content:
     link: "https://github.com/sasaki77/archiverappliance-datasource"
     link-text: GitHub
     image:
-    description: This grafana plugin allows scientists, engineers, and users to set alerts for conditions in the control systems and receive notifications. The plugin works by connecting Grafana, a tool for creating dashboards, and EPICS, the backbone of LCLS's experiment and hardware automation.
+    description: This grafana plugin allows scientists, engineers, and users to remotely monitor their experiment control systems by giving them the tools to build customizable alerts. The plugin works by connecting Grafana, a tool for creating dashboards, and EPICS, the backbone of LCLS's experiment and hardware automation.
   - title: Pytmc
     link: "https://github.com/pcdshub/pytmc"
     link-text: GitHub
     image: 
-    description: This Python utility automates the creation of IOCs, the interface between Beckhoff PLCs and the EPICS SCADA at LCLS. Pytmc uses a markup language that can be added to PLC projects and libraries to identify important data. Using this information it builds the interface documents allowing PLC projects to be rapidly iterated and deployed.  
+    description: A Python utility for  automating the creation of IOCs, the interface between Beckhoff PLCs and the EPICS SCADA at LCLS. Pytmc uses a markup language that can be added to PLC projects and libraries to identify the data that should passed to or received from the control system. Using this information it builds the interface allowing PLC projects to be rapidly iterated and deployed.  
   - title: Automonochromator
     link:
     image:

@@ -8,14 +8,14 @@ content:
       image:
       icon:
       description: Experienced with Python and Conda for creating applications and analysis tools. Well versed in the standard library, scientific libraries, and a variety of other packages. An avid fan of Jupyter notebooks. 
-    - title: Go
-      image:
-      icon:
-      description: Adept at using Go for developing services and monitoring tasks. Experienced building backend Grafana plugnins.   
     - title: PLCs and microcontrollers 
       image:
       icon:
       description: Experienced building Beckhoff and Arduino based systems and developing the necessary interfaces for sensing and actuation. Past projects include high vacuum systems, mobile connected sensor packages, and the occasional quadcopter. 
+    - title: Go
+      image:
+      icon:
+      description: Adept at using Go for developing services and monitoring tasks. Experienced building backend Grafana plugnins.   
   other-skills:
     - title: CI/CD
       image:
