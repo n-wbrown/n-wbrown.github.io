@@ -11,11 +11,11 @@ content:
     - title: PLCs and microcontrollers 
       image:
       icon:
-      description: Experienced building Beckhoff and Arduino based systems and developing the necessary interfaces for sensing and actuation. Past projects include high vacuum systems, mobile connected sensor packages, and the occasional quadcopter. 
+      description: Experienced building Beckhoff and Arduino based systems. I've  developed the necessary interfaces for sensing and actuation. Past projects include vacuum systems, PLC performance analysis, mobile connected sensor packages, and a quadcopter. 
     - title: Go
       image:
       icon:
-      description: Adept at using Go for developing services and monitoring tasks. Experienced building backend Grafana plugnins.   
+      description: Adept at using Go for developing services and monitoring tasks. Experienced building backend Grafana plugins.   
   other-skills:
     - title: CI/CD
       image:

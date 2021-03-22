@@ -4,8 +4,8 @@ meta:
 
 content:
   intro: Hello, I'm Nolan Brown
-  short: I'm an enthusiastic problem solver, software developer, team player, and lifelong learner.
-  description: I enjoy the challenge of solving new problems, crafting high quality tools and continual learning. I cherish the satisfaction of seeing my projects come to life as working, dynamic systems, working in cross-disciplinary teams towards ambitions goals, and forever building upon my skills and knowledge. I have personal passions for software development, data visualization and analysis, electronics, and physics.
+  short: I'm an enthusiastic problem solver, team player, and lifelong learner.
+  description: I enjoy the challenge of solving new problems, crafting high quality tools, and continual learning. I cherish the satisfaction of seeing my projects come to life as working, dynamic systems, working in cross-disciplinary teams towards ambitions goals, and forever building upon my skills and knowledge. I have personal passions for software development, data visualization and analysis, electronics, and physics.
 
 links:
   - order: 1

@@ -7,17 +7,17 @@ content:
     link: "https://github.com/sasaki77/archiverappliance-datasource"
     link-text: GitHub
     image:
-    description: This grafana plugin allows scientists, engineers, and users to remotely monitor their experiment control systems by giving them the tools to build customizable alerts. The plugin works by connecting Grafana, a tool for creating dashboards, and EPICS, the backbone of LCLS's experiment and hardware automation.
+    description: This grafana plugin allows scientists, engineers, and users to remotely monitor their experiment control systems by giving them the tools to build customizable alerts. The plugin works by connecting Grafana, a tool for creating dashboards, and EPICS, the SCADA serving as the backbone of LCLS's experiment and hardware automation.
   - title: Pytmc
     link: "https://github.com/pcdshub/pytmc"
     link-text: GitHub
     image: 
-    description: A Python utility for  automating the creation of IOCs, the interface between Beckhoff PLCs and the EPICS SCADA at LCLS. Pytmc uses a markup language that can be added to PLC projects and libraries to identify the data that should passed to or received from the control system. Using this information it builds the interface allowing PLC projects to be rapidly iterated and deployed.  
+    description: A Python utility for  automating the creation of IOCs, the interface between Beckhoff PLCs and EPICS at LCLS. Pytmc uses a markup language that can be added to PLC projects and libraries to identify the data that should passed to or received from EPICS. Using this information it builds the interface allowing PLC projects to be rapidly iterated and deployed.  
   - title: Automonochromator
     link:
     image:
-    description: A proof-of-concept project to automate the  monochoromator, a frequency selecting instrument at LCLS. This provides a realtime assesment of the monchronmator's alightment by performing shot-by-shot analysis on the incident and exiting pulse intensity. The process takes advantage of the natural energy distribution between individual pulses to measure the transmission with respect to energy. Using this measurement, a correction step can be computed to improve the alignment.
+    description: A proof-of-concept project to automate the  monochoromator, an energy selecting instrument at LCLS. This provides a realtime assesment of the monchronmator's alignment by performing shot-by-shot analysis on the incident and exiting pulse intensity. The process takes advantage of the natural energy distribution between individual pulses to measure the transmission with respect to energy. 
   - title: VATS
     link:
     image:
-    description: The fabrication process for an LHCb detector was vulnerable to several vibrational modes. To monitor the assembly area, I built a device using an Arduino and an accelerometer and an analysis package in R.  
+    description: The fabrication process for the LHCb detectors developed at Syracuse University is vulnerable to several vibrational modes. To monitor the assembly area, I built this device using an Arduino Yún with an accelerometer and wrote the analysis package in R. 
