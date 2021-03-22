@@ -1,9 +1,11 @@
-meta: 
+meta:
   title: About Me
   id: "about-section-id"
 
-content: 
-  description: I'm an enthusiastic problem solver who enjoys crafting high quality tools and the satisfaction of seeing my projects take on life as new things 3 while building the skillset and knowledge base to constantly improve. I have a personal passion for data visualization, analysis, electronics, and physics. 
+content:
+  intro: Hello, I'm Nolan Brown
+  short: I'm an enthusiastic problem solver, software developer, team player, and lifelong learner.
+  description: I enjoy the challenge of solving new problems, crafting high quality tools and continual learning. I cherish the satisfaction of seeing my projects come to life as working, dynamic systems, working in cross-disciplinary teams towards ambitions goals, and forever building upon my skills and knowledge. I have personal passions for software development, data visualization and analysis, electronics, and physics.
 
 links:
   - order: 1

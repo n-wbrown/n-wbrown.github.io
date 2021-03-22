@@ -79,12 +79,27 @@ ul.list-inline {
   height: $title-height;
 }
 
-#banner {
+div.banner {
   background-color: $color-red-pop;
   z-index: 0;
   @include zero-perimeter;
-  height: 7em;
+  height: 1em;
 }
+@include media-breakpoint-up(lg) {
+  div.banner {
+    background-color: $color-red-pop;
+    z-index: 0;
+    @include zero-perimeter;
+    height: 3em;
+  }
+}
+
+div.mini-banner {
+  background-color: $color-red-pop;
+  @include zero-perimeter;
+  height: .3em;
+}
+
 
 header.group-header {
   background-color: $color-bkg-blue;
@@ -94,7 +109,7 @@ header.group-header {
     background-color: inherit;
     color: inherit;
     h3 {
-      padding: 1em 2em 1em 1em;
+      padding: .5em 2em .35em 1em;
       margin: 0em 0em 0em 0em;
       color: inherit;
     }
@@ -104,6 +119,29 @@ header.group-header {
       display: block;
       height: 2px;
       margin: 0.325em 0 0.5em 0;
+    }
+  }
+}
+@include media-breakpoint-up(lg) {
+  header.group-header {
+    background-color: $color-bkg-blue;
+    color: #FFFFFF;
+    padding: 0em;
+    div {
+      background-color: inherit;
+      color: inherit;
+      h3 {
+        padding: 1em 2em 1em 1em;
+        margin: 0em 0em 0em 0em;
+        color: inherit;
+      }
+      h3::after{
+        content: '';
+        background-color: #FFFFFF;
+        display: block;
+        height: 2px;
+        margin: 0.325em 0 0.5em 0;
+      }
     }
   }
 }
@@ -177,6 +215,11 @@ div.group-anchor {
   top: -90px;
   visibility: hidden;
 }
+
+p {
+  color: #666;
+}
+
 
 // Un/comment this line for debugging assistance 
 // * { border: 1px solid black; }
