@@ -3,7 +3,7 @@ meta:
   id: "career-section-id"
 
 content:
-  - image: slac-simple-hires.png
+  - image: SLAC-simple-hires.png
     organization: SLAC National Accelerator Laboratory
     roles:
     - subdivision: Linac Coherent Light Source (LCLS) Engineering and Control Systems
