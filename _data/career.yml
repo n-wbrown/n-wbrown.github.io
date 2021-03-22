@@ -11,7 +11,7 @@ content:
         - to: Current
           from: June 2017
       description: > 
-        Developd backend Grafana plugins for control system monitoring, wrote python applications for automating development processes, and designed systems for vacuum controls using Beckhoff PLCs.
+        Developed backend Grafana plugins for control system monitoring, wrote python applications for automating development processes, and designed systems for vacuum controls using Beckhoff PLCs.
 
 
   - image: syracusestandard.png
