@@ -18,6 +18,7 @@ body {
   @include zero-perimeter;
 }
 
+// Unused?
 .current {
   color: green
 }
@@ -79,6 +80,7 @@ ul.list-inline {
   height: $title-height;
 }
 
+// Part of an unused banner at the top, see the default.html
 div.banner {
   background-color: $color-red-pop;
   z-index: 0;
@@ -94,13 +96,14 @@ div.banner {
   }
 }
 
+// orange line at the bottom of group headers
 div.mini-banner {
   background-color: $color-red-pop;
   @include zero-perimeter;
   height: .3em;
 }
 
-
+// Group header for smaller sizes
 header.group-header {
   background-color: $color-bkg-blue;
   color: #FFFFFF;
@@ -122,6 +125,8 @@ header.group-header {
     }
   }
 }
+
+// Group header
 @include media-breakpoint-up(lg) {
   header.group-header {
     background-color: $color-bkg-blue;
@@ -130,11 +135,13 @@ header.group-header {
     div {
       background-color: inherit;
       color: inherit;
+      //the text itself
       h3 {
         padding: 1em 2em 1em 1em;
         margin: 0em 0em 0em 0em;
         color: inherit;
       }
+      // The underline following the H3
       h3::after{
         content: '';
         background-color: #FFFFFF;
@@ -156,6 +163,7 @@ section.content {
   }
 }
 
+// Widely used for insetting elements
 $container-padding-constant: 14px;
 div.container {
   background-color: inherit;
@@ -169,19 +177,23 @@ div.container {
   //width: 1100px;
 }
 
+// Background of page
 div.background {
   background-color: $color-bkg-light;
 }
 
+// Not used?
 div.listText {
   margin-right: 20px;
   margin-left: 20px;
 }
 
+// Used in jobs section
 img.center-image {
   display: block;
 }
 
+// Set distance between Jobs (like syracuse vs slac) 
 div.col-sm {
   div.jobRow {
     margin-top: 2rem;
@@ -189,12 +201,15 @@ div.col-sm {
   }
 }
 
+// Used for positioning project and skill text boxes 
 div.row {
   div.project-box {
     margin: 0rem 0rem 0rem 0rem;
     padding: .05rem .05rem .05rem .05rem;
   }
 }
+
+// Used for positioning project and skill text boxes when viewed small
 @include media-breakpoint-up(sm) {
   div.row {
     div.project-box {
@@ -209,6 +224,7 @@ div.project-container {
   margin-bottom: 1rem;
 }
 
+// For group header
 div.group-anchor {
   display: block;
   position: relative;
