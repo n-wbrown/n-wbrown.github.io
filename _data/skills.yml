@@ -7,7 +7,7 @@ content:
     - title: Python
       image:
       icon:
-      description: Experienced with Python and Conda for creating applications and analysis tools. Well versed in the standard library, scientific libraries, and a variety of other packages. An avid fan of Jupyter notebooks. 
+      description: Experienced with Python for creating applications and analysis tools. I've built hardware orchestration suites, data analysis tools, backend services, markup language analyzers, and build system utilities.
     - title: PLCs and microcontrollers 
       image:
       icon:
@@ -15,7 +15,11 @@ content:
     - title: Go
       image:
       icon:
-      description: Adept at using Go for developing services and monitoring tasks. Experienced building backend Grafana plugins.   
+      description: Adept at using Go for developing services and monitoring tasks. Experienced building backend Grafana plugins.
+    - title: Data analysis
+      image:
+      icon:
+      description: Confident with the python data analysis ecosystem. Numpy, Scipy, Pandas, Matplotlib, and Jupyter notebooks are all part of my typical toolkit.  
   other-skills:
     - title: CI/CD
       image:

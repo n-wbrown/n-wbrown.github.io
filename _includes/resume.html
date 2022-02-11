@@ -8,11 +8,14 @@
         <div class="col">
           <h2>{{ activity.organization }}</h2>
           {% for role in activity.roles %}
+            {% if role.title %}
+              <h4>{{ role.title }} </h4>
+            {% endif %}
             {% if role.subdivision %}
-              <h4>{{ role.subdivision }} </h4>
+              <h5>{{ role.subdivision }} </h5>
             {% endif %}
             {% for time in role.dates %}
-              <h5>{{ time.from }} - {{ time.to }}</h5>
+              <h6>{{ time.from }} - {{ time.to }}</h6>
             {% endfor %}
             <p>{{ role.description }}</p>
           {% endfor %}

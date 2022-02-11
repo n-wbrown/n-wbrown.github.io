@@ -3,45 +3,59 @@ meta:
   id: "career-section-id"
 
 content:
+  - image: picarro_logo.webp
+    organization: Picarro, Inc.
+    roles:
+    - title: Software Engineer
+      subdivision:
+      dates:
+        - to: Current
+          from: August 2021
+      description: >
+        As a software engineer, I develop calibration routines for volatile organic compound measurements, automation infrastructure, and backend services in Python.
+
   - image: SLAC-simple-hires.png
     organization: SLAC National Accelerator Laboratory
     roles:
-    - subdivision: Linac Coherent Light Source (LCLS) Engineering and Control Systems
-      dates: 
-        - to: Current
+    - title: Science and Engineering Associate
+      subdivision: Linac Coherent Light Source (LCLS) Engineering and Control Systems
+      dates:
+        - to: August 2021
           from: June 2017
-      description: > 
-        Developed backend Grafana plugins for control system monitoring, wrote python applications for automating development processes, and designed systems for vacuum controls using Beckhoff PLCs.
-
+      description: >
+        I developed software and hardware for the LCLS-II upgrade and instruments for the Time-resolved Molecular and Optical (TMO) endstation. I created a backend Grafana plugin for monitoring EPICS based installations and wrote Pytmc for automating parts of the PLC development processes. During this time I also designed vacuum control systems using Beckhoff PLCs while commissioning and overseeing multiple teams of contractors. I lead the development and commissioning of TMO's third endstation, the Multi-resolution Cookiebox Optimized for the Future of Free Electron laser Experiments (MRCOFFEE). 
 
   - image: syracusestandard.png
     organization: Syracuse University
     roles:
       - subdivision: High-Energy Experimental Physics and Gravitational Wave Group 
-        dates: 
+        dates:
           - to: May 2017
-            from: January 2017 
-        description: > 
-          Wrote Python  scripts to streamline parameter estimation workflows for the Syracuse University Gravitational Wave Group in collaboration with LIGO. 
-          
-      - subdivision: High-Energy Experimental Physics 
-        dates: 
+            from: January 2017
+        description: >
+          I wrote Python scripts to streamline parameter estimation workflows for the Syracuse University Gravitational Wave Group in collaboration with LIGO.
+
+      - subdivision: High-Energy Experimental Physics
+        dates:
           - to: May 2016
             from: March 2015
-        description: > 
-          Designed and built a portable, WiFi controlled, environment vibration monitor (VATS) for the detector fabrication cleanroom including sensor interfaces for the High Energy Experimental Physics in collaboration with LHCb. This project included the analysis package for significant frequency detection, intelligent peak grouping, and user-friendly tools for data presentation. Streamlined testing procedures by automating testing equipment. 
+        description: >
+          I designed and built a portable, WiFi controlled, environment vibration monitor (VATS) for the detector fabrication cleanroom including sensor interfaces for the High Energy Experimental Physics in collaboration with LHCb. This project included the analysis package for significant frequency detection, intelligent peak grouping, and user-friendly tools for data presentation. I also streamlined testing procedures by automating testing equipment.
   
-      - subdivision: Physics Deptartment
+      - subdivision: Physics Department
         dates: 
           - to: May 2017
             from: January 2017 
           - to: May 2016
             from: January 2016 
         description: > 
-          Worked with physics students in the classroom and study sessions to help them master coursework and practice problems. Class content covered introductions to mechanics and E&M, both taught with calculus.
+          As a physics coach, I worked with physics students in the classroom and study sessions to help them master coursework and practice problems. Class content covered the introductions to mechanics and E&M, both taught with calculus.
 
-      - subdivision: B.S. in Physics, earned August 2018
+      - title: Physics B.S.
+        subdivision: Magna Cum Laude
         dates:
+          - to: August 2018
+            from: August 2014 
         description: >
           At Syracuse, I had the opportunity to learn from and work with both the Physics Department in the College and Arts and Sciences as well as the EECS division of the College of Engineering and Computer Science. There I built upon my interest for physics and computer engineering. 
 
